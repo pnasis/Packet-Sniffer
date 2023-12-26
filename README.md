@@ -1,5 +1,16 @@
 # Packet Sniffer
+**Disclaimer!**
+This packet sniffer program is shared for educational and research purposes only. The author Prodromos Nasis does not encourage or condone any unethical or illegal activities using this software. Any individual who chooses to use this program is solely responsible for their actions. The author shall not be held liable for any misuse of this software for unauthorized purposes, including but not limited to network intrusion, unauthorized access, or any other malicious activities.
 
+By downloading, copying, or using this software, you agree that you will use it in compliance with all applicable laws, and you assume full responsibility for any consequences that may arise from its use.
+
+This software is provided "as is," without any warranties or guarantees of any kind, either expressed or implied. The author makes no guarantees regarding the functionality, reliability, or suitability of this software for any purpose.
+
+Users are advised to use this software in a lawful and ethical manner and to respect the privacy and rights of others.
+
+**Please use this software responsibly and only in authorized and legal environments!**
+
+## Description
 A packet sniffer, also known as a network sniffer or protocol analyzer, is a software or hardware tool used to capture and analyze network traffic. It allows network administrators or security professionals to examine the contents of packets transmitted over a network.
 
 Packet sniffers work by intercepting and capturing network packets as they pass through a computer network interface. They can be deployed on a specific network interface or on a computer connected to a network in order to monitor the traffic flowing through that network.
