@@ -3,6 +3,7 @@
 #include <string.h>
 #include <pcap.h>
 #include <netinet/ip.h>
+#include <netinet/ip_icmp.h>
 #include <netinet/tcp.h>
 #include <netinet/udp.h>
 #include <netinet/ether.h>
@@ -54,8 +55,8 @@ int main(int argc, char *argv[])
                 fprintf(stderr, "  -p protocol\tSpecify desired protocol (e.g., tcp, udp, icmp, arp)\n");
                 fprintf(stderr, "  -s source_ip\tSpecify source IP address\n");
                 fprintf(stderr, "  -d dest_ip\tSpecify destination IP address\n");
-                fprintf(stderr, "  -sp source_port\tSpecify source port\n");
-                fprintf(stderr, "  -dp dest_port\tSpecify destination port\n");
+                fprintf(stderr, "  -m source_port\tSpecify source port\n");
+                fprintf(stderr, "  -h dest_port\tSpecify destination port\n");
                 return 1;
         }
     }
