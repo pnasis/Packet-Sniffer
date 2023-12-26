@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
     // Use getopt to parse the command-line arguments
     int opt;
-    while ((opt = getopt(argc, argv, "p:s:d:sp:dp:")) != -1) {
+    while ((opt = getopt(argc, argv, "p:s:d:m:h:")) != -1) {
         switch (opt) {
             case 'p':
                 strcat(filter_exp, optarg);
@@ -38,12 +38,12 @@ int main(int argc, char *argv[])
                 strcat(filter_exp, optarg);
                 strcat(filter_exp, " and ");
                 break;
-            case 'sp':
+            case 'm':
                 strcat(filter_exp, "src port ");
                 strcat(filter_exp, optarg);
                 strcat(filter_exp, " and ");
                 break;
-            case 'dp':
+            case 'h':
                 strcat(filter_exp, "dst port ");
                 strcat(filter_exp, optarg);
                 strcat(filter_exp, " and ");
